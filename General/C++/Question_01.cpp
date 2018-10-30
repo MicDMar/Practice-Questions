@@ -1,5 +1,8 @@
 //Find the most frequent integer in an array.
 
+/*This solution uses nested for loops which can be costly.
+  Is there a better solution to this? */
+
 #include<iostream>
 #include<array>
 

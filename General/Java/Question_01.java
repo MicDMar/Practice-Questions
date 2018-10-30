@@ -1,5 +1,11 @@
 //Find the most frequent integer in an array.
 
+/*This solution uses nested for loops which can be costly.
+  Is there a better solution to this? */
+
+import java.util.*
+import java.io.*
+
 public int getFrequentInt(int[] a){
   int count = 1;
   int tempCount;
@@ -25,8 +31,8 @@ public int getFrequentInt(int[] a){
   return popular
 }
 
-int main(String[] args){
+//Test
+public static void main(String[] args){
   int[] lst = [1,2,3,3,4,5];
   System.out.println(getFrequentInt(lst));
-  return 0;
 }
